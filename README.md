@@ -17,3 +17,5 @@ https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_L
 
 Get the section in XML format:
 https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_London&prop=parsetree&section=4
+
+If someone figures out how to use the API to get more specific information such as tournaments, players, etc please share!
