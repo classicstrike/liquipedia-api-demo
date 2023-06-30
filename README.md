@@ -26,3 +26,5 @@ https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&c
 
 To continue to the next page, update the `cmcontinue` param:
 https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&cmtitle=Category:CS1.6%20Competitions&format=json&cmcontinue=page|32303031205649525455412043504c204c4154494e20414d4552494341|43466
+
+#### Remember to refer to the latest liquipedia license as they may require you to credit your source etc
