@@ -21,3 +21,8 @@ https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_L
 List all pages (10 at a time) by title starting with keyword, in this case `2000`:
 https://liquipedia.net/counterstrike/api.php?action=query&list=allpages&apfrom=2000&aplimit=10&format=json
 
+List all pages by category, for example CS1.6 Competitions:
+https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&cmtitle=Category:CS1.6%20Competitions&format=json
+
+To continue to the next page, update the `cmcontinue` param:
+https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&cmtitle=Category:CS1.6%20Competitions&format=json&cmcontinue=page|32303031205649525455412043504c204c4154494e20414d4552494341|43466
