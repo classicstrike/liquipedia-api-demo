@@ -18,5 +18,6 @@ https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_L
 Get the section in XML format:
 https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_London&prop=parsetree&section=4&format=json
 
-To list all the tournaments or players in particular, you have to find a page that lists them and remember to use the `continue` param:
-https://liquipedia.net/counterstrike/api.php?action=parse&page=2001_CPL_Europe_London&format=json&continue=
+List all pages (10 at a time) by title starting with keyword, in this case `2000`:
+https://liquipedia.net/counterstrike/api.php?action=query&list=allpages&apfrom=2000&aplimit=10&format=json
+
