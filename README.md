@@ -27,4 +27,7 @@ https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&c
 To continue to the next page, update the `cmcontinue` param:
 https://liquipedia.net/counterstrike/api.php?action=query&list=categorymembers&cmtitle=Category:CS1.6%20Competitions&format=json&cmcontinue=page|32303031205649525455412043504c204c4154494e20414d4552494341|43466
 
+You can also visit the [Search by property](https://liquipedia.net/counterstrike/Special:SearchByProperty) page to build quieries like this one which are more efficient and less prone to API Rate Limiting:
+https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&conditions=Is%20result%20type%3A%3Ateam%7C-Has%20subobject%3A%3A2001_CPL_Europe_London&printouts=Has%20team%20page
+
 #### Remember to refer to the latest liquipedia license as they may require you to credit your source etc
