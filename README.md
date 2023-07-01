@@ -35,4 +35,6 @@ https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&conditio
 #### List all CS 1.6 teams (offet 0-50 limit)
 https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&parameters=offset%3D0|limit%3D50&conditions=Has%20cs::true&printouts=Has%20team%20name|Has%20location|Was%20created|Was%20disbanded
 
+See sample [team page](https://liquipedia.net/counterstrike/Special:Browse/:SK.ger) for list of printout params.
+
 #### Remember to refer to the latest liquipedia license as they may require you to credit your source etc
