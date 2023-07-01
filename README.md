@@ -32,7 +32,7 @@ You can also visit the [Search by property](https://liquipedia.net/counterstrike
 #### List teams in tournament
 https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&conditions=Is%20result%20type%3A%3Ateam%7C-Has%20subobject%3A%3A2001_CPL_Europe_London&printouts=Has%20team%20page
 
-#### List all CS 1.6 teams
-https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&conditions=Has%20cs::true&printouts=Has%20team%20name
+#### List all CS 1.6 teams (offet 0-50 limit)
+[https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&conditions=Has%20cs::true&printouts=Has%20team%20name](https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&parameters=offset%3D0|limit%3D50&conditions=Has%20cs::true&printouts=Has%20team%20name|Has%20location|Was%20created|Was%20disbanded)https://liquipedia.net/counterstrike/api.php?action=askargs&format=json&parameters=offset%3D0|limit%3D50&conditions=Has%20cs::true&printouts=Has%20team%20name|Has%20location|Was%20created|Was%20disbanded
 
 #### Remember to refer to the latest liquipedia license as they may require you to credit your source etc
